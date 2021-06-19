@@ -2,7 +2,7 @@ body {
   margin-top: 105px; }
 
 .navbar {
-  box-shadow: 2px 2px 5px #3292a6;
+  box-shadow: 2px 2px 5px #D06C6C;
   opacity: 0.9;
   background: #fff; }
   .navbar .nav-item {
@@ -14,9 +14,26 @@ body {
   background: url("../img/mountains.jpg");
   min-height: 600px; }
   #showcase .overlay {
-    background: rgba(50, 145, 165, 0.8);
+    background: rgba(208, 108, 108, 0.6);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#accordion .card-header {
+  cursor: pointer; }
+
+#authors img {
+  margin-top: -50px; }
+#authors .card:hover {
+  background: #D06C6C;
+  color: #fff;
+  cursor: pointer; }
+  #authors .card:hover .fa {
+    color: #fff; }

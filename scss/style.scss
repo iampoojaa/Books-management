@@ -1,7 +1,5 @@
-$primary : #3292a6;
-$primary-overlay : rgba(50, 145, 165, 0.8);
-$secondary:#D06C6C;
-$secondary-overlay:rgba(208, 108, 108, 0.6);
+$primary : #D06C6C;
+$primary-overlay : rgba(208, 108, 108, 0.6);
 
 body {
     margin-top: 105px;
@@ -31,5 +29,32 @@ body {
         width: 100%;
         height: 100%;
     }
+
+}
+
+.info-header{
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid ;
+}
+#accordion{
+    .card-header{
+        cursor: pointer;
+    }
+}
+#authors {
+img{
+    margin-top: -50px;
+}
+
+.card:hover{
+    background: $primary;
+    color: #fff;
+    cursor: pointer;
+
+    .fa{
+        color: #fff;
+    }
+}
 
 }
